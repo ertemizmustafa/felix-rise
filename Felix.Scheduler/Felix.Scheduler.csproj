@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\Felix.Data.Core</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Felix.Common\Felix.Common.csproj" />
+    <ProjectReference Include="..\Felix.Data.Core\Felix.Data.Core.csproj" />
+    <ProjectReference Include="..\Felix.Schedule.Core\Felix.Schedule.Core.csproj" />
+  </ItemGroup>
+
+</Project>
